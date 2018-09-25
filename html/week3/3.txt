@@ -1,0 +1,118 @@
+
+pc@asus MINGW64 ~
+$ mkdir directory
+
+pc@asus MINGW64 ~
+$ touch
+touch: missing file operand
+Try 'touch --help' for more information.
+
+pc@asus MINGW64 ~
+$ clear
+
+pc@asus MINGW64 ~
+$ pwd
+/c/Users/pc
+
+pc@asus MINGW64 ~
+$ cd documents
+
+pc@asus MINGW64 ~/documents
+$ cd Github
+
+pc@asus MINGW64 ~/documents/Github
+$ cd hyf
+
+pc@asus MINGW64 ~/documents/Github/hyf (master)
+$ cd html
+
+pc@asus MINGW64 ~/documents/Github/hyf/html (master)
+$ cd week3
+
+pc@asus MINGW64 ~/documents/Github/hyf/html/week3 (master)
+$ mkdir homework3
+
+pc@asus MINGW64 ~/documents/Github/hyf/html/week3 (master)
+$ cd homework3
+
+pc@asus MINGW64 ~/documents/Github/hyf/html/week3/homework3 (master)
+$ touch
+touch: missing file operand
+Try 'touch --help' for more information.
+
+pc@asus MINGW64 ~/documents/Github/hyf/html/week3/homework3 (master)
+$ touch blank
+
+pc@asus MINGW64 ~/documents/Github/hyf/html/week3/homework3 (master)
+$ echo "Hello" "Hello" "Hello" "Hello" "Hello" > greetings.txt
+
+pc@asus MINGW64 ~/documents/Github/hyf/html/week3/homework3 (master)
+$ cp greetings.txt 1.txt
+
+pc@asus MINGW64 ~/documents/Github/hyf/html/week3/homework3 (master)
+$ cp greeting.txt 2.txt
+cp: cannot stat 'greeting.txt': No such file or directory
+
+pc@asus MINGW64 ~/documents/Github/hyf/html/week3/homework3 (master)
+$ cp greetings.txt 2.txt
+
+pc@asus MINGW64 ~/documents/Github/hyf/html/week3/homework3 (master)
+$ cp greetings.txt 3.txt
+
+pc@asus MINGW64 ~/documents/Github/hyf/html/week3/homework3 (master)
+$ cp greetings.txt 4.txt
+
+pc@asus MINGW64 ~/documents/Github/hyf/html/week3/homework3 (master)
+$ cp greetings.txt 5.txt
+
+pc@asus MINGW64 ~/documents/Github/hyf/html/week3/homework3 (master)
+$ echo "cat" > pets.txt
+
+pc@asus MINGW64 ~/documents/Github/hyf/html/week3/homework3 (master)
+$ echo "dog" >> pets.txt
+
+pc@asus MINGW64 ~/documents/Github/hyf/html/week3/homework3 (master)
+$ echo "hamster" >> pets.txt
+
+pc@asus MINGW64 ~/documents/Github/hyf/html/week3/homework3 (master)
+$ cat pets.txt
+cat
+dog
+hamster
+
+pc@asus MINGW64 ~/documents/Github/hyf/html/week3/homework3 (master)
+$ echo "cat" > commands.txt
+
+pc@asus MINGW64 ~/documents/Github/hyf/html/week3/homework3 (master)
+$ echo "Is" >> commands.txt
+
+pc@asus MINGW64 ~/documents/Github/hyf/html/week3/homework3 (master)
+$ echo "pwd" >> commands.txt
+
+pc@asus MINGW64 ~/documents/Github/hyf/html/week3/homework3 (master)
+$ cat commands.txt
+cat
+Is
+pwd
+
+pc@asus MINGW64 ~/documents/Github/hyf/html/week3/homework3 (master)
+$ cmm pets.txt commands.txt
+bash: cmm: command not found
+
+pc@asus MINGW64 ~/documents/Github/hyf/html/week3/homework3 (master)
+$ comm pets.txt commands.txt
+                cat
+dog
+hamster
+        Is
+        pwd
+
+pc@asus MINGW64 ~/documents/Github/hyf/html/week3/homework3 (master)
+$ echo "cat" > lovelycommands.txt
+
+pc@asus MINGW64 ~/documents/Github/hyf/html/week3/homework3 (master)
+$ cat lovelycommands.txt
+cat
+
+pc@asus MINGW64 ~/documents/Github/hyf/html/week3/homework3 (master)
+$
