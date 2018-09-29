@@ -3,6 +3,7 @@ html{
     background-image: url(https://pre00.deviantart.net/a408/th/pre/i/2011/243/a/7/light_watercolor_texture_1_by_shembre-d48g62m.jpg);
     margin: 2px;
     box-sizing:border-box;
+	display:block;
 }
 #logotype {
     display: block;
