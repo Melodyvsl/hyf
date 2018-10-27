@@ -1,0 +1,44 @@
+html{
+    background-color:lightblue;
+    background-image: url(https://pre00.deviantart.net/c69b/th/pre/i/2010/071/b/2/bookcase_by_jcallius.jpg);
+    margin: 2px;
+    box-sizing:border-box;
+    display: block;
+}
+ul{
+background-color: beige;
+padding: 30px 40px 40px 40px;
+margin-right: 500px;
+margin-left: 10px;
+list-style-type: none;
+}
+a{
+    background-color: beige;
+    color:black;
+    text-align-last: center;
+    padding: 10px 10px 10px 10px;
+    margin: 40px 10px 10px 10px;
+}
+h1{
+    color: darkred;
+    background-color: beige;
+    margin:50px 50px 50px 50px;
+    text-align-last: center;
+    font-size: 30px;
+    font-family: fantasy;
+}
+
+h2 {
+    font-family: Tahoma, sans-serif;
+    font-size: 16px;
+    color:white;
+    background-color: orangered;
+    margin:0px 400px 20px 10px;
+}
+
+img {
+    width: 300px;
+    height: 350px;
+    border: 3px solid darkred;
+}
+
